@@ -766,6 +766,7 @@ hrml,body{
 		border-radius: 25px;
 		padding: 11px 0px;
 		box-shadow: 0 0 30px 0 rgba(212, 66, 50, 0.6);
+		font-size: 13px;
 	}
 	.product__content{
 		max-height: 50px;
@@ -791,10 +792,10 @@ hrml,body{
 		max-height: 60px;
 	}
 	.product__btn{
-		width: 110px;
+		width: 120px;
 		border-radius: 25px;
 		padding: 13px 0px;
-		font-size: 16px;
+		font-size: 13px;
 	}
 	.catalog__item {
     padding-left: 10px;
@@ -824,7 +825,7 @@ hrml,body{
 		width: 90px;
 		border-radius: 20px;
 		padding: 10px 0px;
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.catalog__item {
     padding-left: 10px;
@@ -852,10 +853,10 @@ hrml,body{
 
 	}
 	.product__btn{
-		width: 70px;
+		width: 80px;
 		border-radius: 17px;
 		padding: 9px 0px;
-		font-size: 10px;
+		font-size: 9.5px;
 	}
 	.catalog__item {
     padding-left: 10px;
