@@ -897,7 +897,7 @@ hrml,body{
   }
 }
 
-@media (max-width: 280px){
+@media (max-width: 300px){
 	.product__img{
 		height: 130px;
 	}
