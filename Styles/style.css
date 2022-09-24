@@ -874,10 +874,43 @@ hrml,body{
 	}
 	.product__price{
 		font-size: 14px;
-		padding-left: 0;
+		padding-left: 0px;
 	}
 	.product:hover .product__price{
 		font-size: 14px;
+	}
+	.product__description{
+		font-size: 12px;
+		max-height: 50px;
+
+	}
+	.product__btn{
+		width: 60px;
+		border-radius: 15px;
+		padding: 7px 0px;
+		font-size: 8px;
+		text-align: center;
+	}
+	.catalog__item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 280px){
+	.product__img{
+		height: 130px;
+	}
+
+	.product__title{
+		font-size: 13px;
+	}
+	.product__price{
+		font-size: 12.5px;
+		padding-left: 0px;
+	}
+	.product:hover .product__price{
+		font-size: 12.5px;
 	}
 	.product__description{
 		font-size: 12px;
