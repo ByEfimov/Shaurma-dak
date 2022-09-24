@@ -755,19 +755,19 @@ hrml,body{
 		font-size: 18px;
 	}
 	.product__description{
-		font-size: 14px;
-		max-height: 80px;
+		display: none;
 	}
 	.product:hover .product__price{
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.product__btn{
 		width: 120px;
 		border-radius: 25px;
 		padding: 11px 0px;
+		box-shadow: 0 0 30px 0 rgba(212, 66, 50, 0.8);
 	}
 	.product__content{
-		max-height: 70px;
+		max-height: 50px;
 	}
 }
 
@@ -790,7 +790,7 @@ hrml,body{
 		max-height: 60px;
 	}
 	.product__btn{
-		width: 100px;
+		width: 110px;
 		border-radius: 25px;
 		padding: 13px 0px;
 		font-size: 16px;
@@ -822,7 +822,7 @@ hrml,body{
 	.product__btn{
 		width: 90px;
 		border-radius: 20px;
-		padding: 13px 0px;
+		padding: 10px 0px;
 		font-size: 14px;
 	}
 	.catalog__item {
@@ -832,7 +832,7 @@ hrml,body{
 }
 @media (max-width: 380px){
 	.product__img{
-		height: 180px;
+		height: 160px;
 	}
 
 	.product__title{
@@ -840,6 +840,7 @@ hrml,body{
 	}
 	.product__price{
 		font-size: 16px;
+		padding-left: 0;
 	}
 	.product:hover .product__price{
 		font-size: 16px;
@@ -850,9 +851,9 @@ hrml,body{
 
 	}
 	.product__btn{
-		width: 65px;
+		width: 70px;
 		border-radius: 17px;
-		padding: 11px 0px;
+		padding: 9px 0px;
 		font-size: 10px;
 	}
 	.catalog__item {
@@ -882,10 +883,11 @@ hrml,body{
 
 	}
 	.product__btn{
-		width: 50px;
-		border-radius: 17px;
-		padding: 9px 0px;
-		font-size: 8px;
+		width: 60px;
+		border-radius: 15px;
+		padding: 7px 0px;
+		font-size: 9px;
+		text-align: center;
 	}
 	.catalog__item {
     padding-left: 10px;
