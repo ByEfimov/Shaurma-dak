@@ -550,6 +550,8 @@ hrml,body{
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
+	height: 144px;
+	overflow: hidden;
 }
 
 .product:hover {
@@ -574,7 +576,7 @@ hrml,body{
 }
 
 .product__img {
-	height: 300px;
+	height: 250px;
 	transition: all 0.5s;
 }
 
@@ -600,6 +602,10 @@ hrml,body{
   }
 	.product__description{
 		max-height: 80px;
+	}
+	.product__content{
+		height: 130px;
+		overflow: hidden;
 	}
 }
 
@@ -692,6 +698,20 @@ hrml,body{
   .product__size {
     padding: 13px 25px;
   }
+	.product__content{
+		max-height: 90px;
+	}
+	.product__title{
+		font-size: 20px;
+	}
+	.product__price{
+		font-size: 22px;
+	}
+	.product__btn{
+		width: 150px;
+		border-radius: 25px;
+		padding: 13px 0px;
+	}
 }
 
 @media (max-width: 370px) {
@@ -723,7 +743,7 @@ hrml,body{
 
 }
 
-@media (max-width: 520px){
+@media (max-width: 524px){
 	.product__img{
 		height: 200px;
 	}
@@ -732,7 +752,7 @@ hrml,body{
 		font-size: 17px;
 	}
 	.product__price{
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.product__description{
 		font-size: 14px;
@@ -746,7 +766,9 @@ hrml,body{
 		border-radius: 25px;
 		padding: 11px 0px;
 	}
-
+	.product__content{
+		max-height: 70px;
+	}
 }
 
 @media (max-width: 500px){
@@ -808,7 +830,68 @@ hrml,body{
     padding-right: 10px;
   }
 }
+@media (max-width: 380px){
+	.product__img{
+		height: 180px;
+	}
 
+	.product__title{
+		font-size: 14px;
+	}
+	.product__price{
+		font-size: 16px;
+	}
+	.product:hover .product__price{
+		font-size: 16px;
+	}
+	.product__description{
+		font-size: 12px;
+		max-height: 50px;
+
+	}
+	.product__btn{
+		width: 65px;
+		border-radius: 17px;
+		padding: 11px 0px;
+		font-size: 10px;
+	}
+	.catalog__item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 330px){
+	.product__img{
+		height: 130px;
+	}
+
+	.product__title{
+		font-size: 13px;
+	}
+	.product__price{
+		font-size: 14px;
+		padding-left: 0;
+	}
+	.product:hover .product__price{
+		font-size: 14px;
+	}
+	.product__description{
+		font-size: 12px;
+		max-height: 50px;
+
+	}
+	.product__btn{
+		width: 50px;
+		border-radius: 17px;
+		padding: 9px 0px;
+		font-size: 8px;
+	}
+	.catalog__item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 
 
 
