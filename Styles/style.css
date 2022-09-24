@@ -468,6 +468,7 @@ hrml,body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   color: #000;
+	transition: all .3s;
 }
 
 .catalog-nav__btn.is-active {
@@ -683,7 +684,7 @@ hrml,body{
 	border-radius: 28px;
 	font-family: montserrat;
 	font-weight: 900;
-	font-size: 20px;
+	font-size: 16px;
 	border: 0;
 	cursor: pointer;
 	text-align: center;
@@ -764,7 +765,7 @@ hrml,body{
 		width: 120px;
 		border-radius: 25px;
 		padding: 11px 0px;
-		box-shadow: 0 0 30px 0 rgba(212, 66, 50, 0.8);
+		box-shadow: 0 0 30px 0 rgba(212, 66, 50, 0.6);
 	}
 	.product__content{
 		max-height: 50px;
@@ -823,7 +824,7 @@ hrml,body{
 		width: 90px;
 		border-radius: 20px;
 		padding: 10px 0px;
-		font-size: 14px;
+		font-size: 12px;
 	}
 	.catalog__item {
     padding-left: 10px;
