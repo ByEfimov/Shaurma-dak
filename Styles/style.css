@@ -1425,6 +1425,8 @@ hrml,body{
 	height: 80px;
 	background-color: #fff;
 	border-radius: 50%;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+	border: #000 solid 1px;
 }
 
 .cart i{
@@ -1448,9 +1450,9 @@ hrml,body{
 @media (max-width:767px){
 	.cart{
 		top: 70px;
-		width: 35px;
-		height: 35px;
+		width: 40px;
+		height: 40px;
 		font-size: 16px;
-		right: 16px;
+		right: 15px;
 	}
 }
