@@ -1045,6 +1045,7 @@ hrml,body{
 }
 
 .popup {
+	z-index: 11;
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -1169,6 +1170,12 @@ hrml,body{
 }
 
 
+
+
+
+
+
+
 .popup__area{
 	position: absolute;
 	width: 100%;
@@ -1186,6 +1193,7 @@ hrml,body{
 	padding: 30px 10px;
 	margin: 20px;
 }
+
 .popup__content {
 	background-color: #fff;
 	color: #000;
@@ -1197,18 +1205,41 @@ hrml,body{
 	border-radius: 25px;
 	position: relative;
 }
+
+.popup__content_cart{
+	height: 700px;
+	max-height: 700px;
+	display: block;
+}
+
 .popup__close {
 	position: absolute;
-	right: 20px;
-	top: 10px;
-	font-size: 20px;
+	right: 37px;
+	top: 23px;
+	font-size: 35px;
 	color: #000;
 	text-decoration: none;
+}
+
+.popup__bin{
+	position: absolute;
+	right: 75px;
+	top: 29px;
+	font-size: 24px;
+	color: #ff000f;
+	text-decoration: none;
+}
+
+.popup__close_cart{
+	right: 40px;
+	top: 23px;
 }
 .popup__img{
 	height: 100%;
 	border-radius: 20px;
 }
+
+
 .popup__text{
 	max-width: 50%;
 	max-height: 100%;
@@ -1264,6 +1295,12 @@ hrml,body{
 	max-height: 200px;
 	height: 200px;
 }
+
+
+
+
+
+
 
 @media (max-width:850px){
 	.popup__content{
